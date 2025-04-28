@@ -145,5 +145,13 @@ This project was developed in Solana Playground IDE
 
 ---
 
+## 🛡 Security Considerations
+
+- Always test vault behavior on Devnet extensively.
+- Use secure admin multisigs for production deployments.
+- Monitor underlying DEX liquidity health to prevent losses during rebalances.
+
+---
+
 
 
