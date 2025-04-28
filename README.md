@@ -37,3 +37,16 @@ This project was developed in Solana Playground IDE
   Set minimum deposit amounts and maximum vault TVL to prevent spam and manage risk exposure.
 
 ---
+
+## 🔧 Core Program Concepts
+
+| Concept                   | Description |
+|:---------------------------|:------------|
+| **Vault**                  | Main account managing all parameters, token vaults, and treasury settings. |
+| **Share Token (LP Token)**  | Represents ownership in the vault; minted to users when depositing. |
+| **Base and Quote Vaults**   | Token accounts holding the pooled liquidity assets. |
+| **Bands**                  | Price intervals (basis points) that trigger rebalancing events. |
+| **Treasury Address**        | Receives protocol fees from vault operations. |
+| **Admins**                 | Additional authorized operators who can manage and rebalance the vault. |
+
+---
