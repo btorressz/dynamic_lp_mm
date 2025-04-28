@@ -137,5 +137,13 @@ This project was developed in Solana Playground IDE
 
 ---
 
+## 📚 Future Enhancements
+
+- Integrate real-time **price oracles** for smarter rebalance decisions.
+- Add **dynamic band resizing** based on volatility metrics.
+- Support **multi-asset vaults** beyond 2-token pairs.
+
+---
+
 
 
