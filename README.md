@@ -11,6 +11,8 @@ It helps liquidity providers maximize trading fees, maintain optimal market dept
 
 This project was developed in Solana Playground IDE
 
+**devnet**:(https://explorer.solana.com/address/57y2Lg2TEBxTvnfo5Jokj21SsAVeZyc6ijANBYXhm9bc?cluster=devnet)
+
 ---
 
 ## ✨ Key Features
@@ -134,4 +136,6 @@ This project was developed in Solana Playground IDE
 - **Market Making Bots** that rely on real liquidity placement along price curves
 
 ---
+
+
 
