@@ -99,3 +99,30 @@ This project was developed in Solana Playground IDE
   - Transfers accrued fees from the vault token accounts to the treasury account.
 
 ---
+
+## 🧱 Vault Account Fields
+
+| Field                     | Type             | Purpose |
+|:---------------------------|:-----------------|:--------|
+| authority                  | Pubkey            | Initial authority of the vault |
+| admins                     | Vec<Pubkey>       | List of admin accounts |
+| treasury                   | Pubkey            | Treasury wallet to receive fees |
+| base_mint / quote_mint      | Pubkey            | Assets paired in liquidity pool |
+| share_mint                 | Pubkey            | Token mint for LP shares |
+| base_vault / quote_vault    | Pubkey            | Token vaults holding liquidity |
+| fee_bps                    | u16               | Fee charged on trades (basis points) |
+| withdraw_fee_bps           | u16               | Fee charged on withdrawals (basis points) |
+| band_size_bp               | u16               | Size of price bands (basis points) |
+| last_band                  | u64               | Last active price band |
+| rebalance_cooldown_sec     | u64               | Cooldown between rebalances |
+| last_rebalance_ts          | u64               | Timestamp of last rebalance |
+| rebalance_mode             | u8                | Rebalance trigger mode |
+| paused                     | bool              | Pause status |
+| emergency_withdraw_only    | bool              | Only withdrawals allowed in emergencies |
+| accrued_fee_base / quote   | u64               | Collected fees awaiting sweep |
+| deposit_whitelist          | Vec<Pubkey>       | Addresses allowed to deposit (optional) |
+| withdraw_whitelist         | Vec<Pubkey>       | Addresses allowed to withdraw (optional) |
+| bump                       | u8                | PDA bump for seeds |
+
+---
+
