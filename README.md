@@ -157,6 +157,8 @@ This project was developed in Solana Playground IDE
 
 MIT License — Free to use, modify, and adapt.
 
+---
+
 
 ## 🎯 Conclusion
 
