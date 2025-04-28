@@ -12,3 +12,28 @@ It helps liquidity providers maximize trading fees, maintain optimal market dept
 This project was developed in Solana Playground IDE
 
 ---
+
+## ✨ Key Features
+
+- **Dynamic Liquidity Rebalancing**  
+  Liquidity is rebalanced when the price crosses predefined bands (e.g., 5bps). Supports multiple rebalance modes: manual, automated, or volatility-based triggers.
+
+- **Emergency Pause and Withdraw Mode**  
+  Admins can pause all operations or enable emergency-only withdrawals if DEX hacks or extreme events occur.
+
+- **Fee Collection and Auto-Compounding**  
+  Vault collects fees from trading activities and can automatically reinvest them into liquidity positions.
+
+- **Vault Treasury Management**  
+  Accrued protocol fees can be swept to a designated treasury wallet.
+
+- **Whitelist Control (Optional)**  
+  Restrict deposits and withdrawals to whitelisted addresses if desired.
+
+- **Multi-Admin System**  
+  Supports assigning multiple admins beyond the initial authority for enhanced operational flexibility.
+
+- **Deposit Limits and Protection**  
+  Set minimum deposit amounts and maximum vault TVL to prevent spam and manage risk exposure.
+
+---
