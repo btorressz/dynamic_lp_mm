@@ -153,5 +153,11 @@ This project was developed in Solana Playground IDE
 
 ---
 
+## 📜 License
+
+MIT License — Free to use, modify, and adapt.
+
+
+
 
 
